@@ -1,5 +1,13 @@
 import React from 'react';
+import { Global } from '@emotion/core';
 
-const App = () => <div>Star Wars Characters</div>;
+import globalStyles from './styles/global';
+
+const App = () => (
+  <>
+    <Global styles={globalStyles} />
+    <div>Star Wars Characters</div>
+  </>
+);
 
 export default App;
