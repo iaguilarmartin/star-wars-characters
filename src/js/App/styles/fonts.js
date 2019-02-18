@@ -9,16 +9,14 @@ const sizes = {
   xs: '1.2rem',
   s: '1.4rem',
   m: '1.6rem',
-  l: '1.8rem',
-  xl: '2rem',
-  xxl: '3rem',
-  xxxl: '3.6rem',
-  xxxxl: '4.8rem',
-  xxxxxl: '5.2rem'
+  l: '2rem',
+  xl: '3rem',
+  xxl: '4.2rem'
 };
 
 // Font names
 const names = {
+  AnakinMono: "'Anakin Mono'",
   Starjedi: "'Star Wars Jedi'",
   Starjhol: "'Star Wars Jedi Hole'",
   Starjout: "'Star Wars Jedi Outline'"
@@ -26,6 +24,13 @@ const names = {
 
 // Font faces
 const faces = css`
+  @font-face {
+    font-family: ${names.AnakinMono};
+    src: url('/assets/fonts/anakinmono.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
   @font-face {
     font-family: ${names.Starjedi};
     src: url('/assets/fonts/Starjedi.ttf') format('truetype');

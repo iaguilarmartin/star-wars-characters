@@ -22,12 +22,13 @@ export default css`
   body {
     padding: 0;
     margin: 0;
+    height: 100vh;
     overflow-x: hidden;
-    font-family: ${fonts.Starjedi};
+    font-family: ${fonts.AnakinMono};
     font-size: ${fonts.sizes.m};
     color: ${colors.white};
     fill: ${colors.white};
-    background-color: ${colors.black};
+    background: ${colors.black} url('/assets/images/stars.png') repeat left top;
   }
 
   h1,
@@ -45,5 +46,9 @@ export default css`
 
   fieldset {
     border: none;
+  }
+
+  #root {
+    height: 100%;
   }
 `;
