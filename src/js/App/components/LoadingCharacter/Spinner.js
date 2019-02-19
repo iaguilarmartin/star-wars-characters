@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
 import { keyframes } from '@emotion/core';
 
@@ -101,8 +102,8 @@ const Container = styled.div`
   }
 `;
 
-const StyledSpinner = () => (
-  <Container>
+const Spinner = ({ className }) => (
+  <Container className={className}>
     <div className="circle1" />
     <div className="circle2" />
     <div className="circle3" />
@@ -118,4 +119,12 @@ const StyledSpinner = () => (
   </Container>
 );
 
-export default StyledSpinner;
+Spinner.defaultProps = {
+  className: null
+};
+
+Spinner.propTypes = {
+  className: PropTypes.string
+};
+
+export default Spinner;

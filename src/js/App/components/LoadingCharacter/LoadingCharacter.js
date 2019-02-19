@@ -3,23 +3,24 @@ import styled from '@emotion/styled';
 
 import fonts from '../../styles/fonts';
 
+import { space } from '../../styles/spacing';
+
+import Spinner from './Spinner';
+
 const Section = styled.section`
-  flex-grow: 1;
-  position: relative;
   text-align: center;
+  margin: ${space.x3};
+  font-family: ${fonts.Starjedi};
 `;
 
-const LoadingMeassage = styled.span`
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%);
-  font-family: ${fonts.Starjedi};
+const LoadingAnimation = styled(Spinner)`
+  margin: ${space.x3} auto;
 `;
 
 const LoadingCharacter = () => (
   <Section>
-    <LoadingMeassage>Loading character information...</LoadingMeassage>
+    <LoadingAnimation />
+    Loading character information...
   </Section>
 );
 
