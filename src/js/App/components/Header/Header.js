@@ -12,9 +12,10 @@ const H1 = styled.h1`
   font-size: ${fonts.sizes.xxl};
   font-family: ${fonts.Starjout};
   font-weight: normal;
-  color: ${colors.yellow};
+  color: ${colors.white};
 
   small {
+    color: ${colors.yellow};
     font-family: ${fonts.Starjhol};
     font-size: ${fonts.sizes.xl};
     display: block;

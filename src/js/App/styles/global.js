@@ -47,8 +47,4 @@ export default css`
   fieldset {
     border: none;
   }
-
-  #root {
-    height: 100%;
-  }
 `;
