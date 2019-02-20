@@ -34,6 +34,5 @@ napm run dev
 
 ## TODO
 
-- Add favicon
 - Publish project in now
 - Write tests
