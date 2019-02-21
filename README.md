@@ -4,6 +4,12 @@ This repo contains the source code of a pre-interview exercise from
 **American-Express**. Full description of the exercise can be found
 [here](https://gist.github.com/mkivanova/d2dab98922e5727cd4470c5d05696975).
 
+## Preview
+
+The result of the exercise is published using [now](https://zeit.co/now) in the
+following URL:
+[https://star-wars-characters-hpjs72twe.now.sh](https://star-wars-characters-hpjs72twe.now.sh)
+
 ## Technologies used
 
 - React
@@ -34,5 +40,4 @@ napm run dev
 
 ## TODO
 
-- Publish project in now
 - Write tests

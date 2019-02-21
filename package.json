@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "webpack-dev-server --open",
     "build": "webpack",
+    "deploy": "npm run build && now ./dist --local-config=../now.json",
     "lint": "eslint .",
     "prettier": "prettier \"**/*.+(js|json|md)\"",
     "format": "npm run prettier -- --write",
