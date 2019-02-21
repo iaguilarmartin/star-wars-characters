@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorMessage/> matches the snapshot 1`] = `
+<Section>
+  <Image
+    alt=""
+    src="/assets/images/porg.png"
+  />
+  ooopss something went wrong...
+</Section>
+`;

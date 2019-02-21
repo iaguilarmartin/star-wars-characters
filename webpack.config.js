@@ -31,19 +31,6 @@ module.exports = {
         exclude: [/node_modules/, path.resolve('./src/assets')],
         use: [{ loader: 'babel-loader' }],
         include: [path.resolve('./src')]
-      },
-      {
-        test: /\.(woff|woff2|eot|ttf|otf)$/,
-        use: ['file-loader']
-      },
-      {
-        test: /\.(png|jpg|gif|svg)$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {}
-          }
-        ]
       }
     ]
   }

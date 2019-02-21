@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoadingCharacter/> matches the snapshot 1`] = `
+<Section>
+  <LoadingAnimation
+    className={null}
+  />
+  Loading character information...
+</Section>
+`;

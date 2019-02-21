@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoadingCharacter/> matches the snapshot 1`] = `
+<Section>
+  <label
+    htmlFor="charactersSelect"
+  >
+    Select a character:
+  </label>
+  <Select
+    classNamePrefix="react-select"
+    defaultInputValue=""
+    defaultMenuIsOpen={false}
+    defaultValue={null}
+    inputId="charactersSelect"
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "label": "Luke Skywalker",
+          "value": "https://swapi.co/api/people/1/",
+        },
+        Object {
+          "label": "Darth Vader",
+          "value": "https://swapi.co/api/people/4/",
+        },
+        Object {
+          "label": "Obi-wan Kenobi",
+          "value": "https://swapi.co/api/people/unknown/",
+        },
+        Object {
+          "label": "R2-D2",
+          "value": "https://swapi.co/api/people/3/",
+        },
+      ]
+    }
+    placeholder="List of characters"
+  />
+</Section>
+`;

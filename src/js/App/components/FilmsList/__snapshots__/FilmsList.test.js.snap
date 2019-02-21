@@ -1,0 +1,478 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FilmsList/> matches the snapshot 1`] = `
+<Section>
+  <Header>
+    Complete list of 
+    <span>
+      Luke Sky Walker
+    </span>
+     films
+  </Header>
+  <Film
+    film={
+      Object {
+        "characters": Array [
+          "https://swapi.co/api/people/1/",
+          "https://swapi.co/api/people/2/",
+          "https://swapi.co/api/people/3/",
+          "https://swapi.co/api/people/4/",
+          "https://swapi.co/api/people/5/",
+          "https://swapi.co/api/people/10/",
+          "https://swapi.co/api/people/13/",
+          "https://swapi.co/api/people/14/",
+          "https://swapi.co/api/people/18/",
+          "https://swapi.co/api/people/20/",
+          "https://swapi.co/api/people/21/",
+          "https://swapi.co/api/people/22/",
+          "https://swapi.co/api/people/23/",
+          "https://swapi.co/api/people/24/",
+          "https://swapi.co/api/people/25/",
+          "https://swapi.co/api/people/26/",
+        ],
+        "created": "2014-12-12T11:26:24.656000Z",
+        "director": "Irvin Kershner",
+        "edited": "2017-04-19T10:57:29.544256Z",
+        "episode_id": 5,
+        "opening_crawl": "It is a dark time for the
+Rebellion. Although the Death
+Star has been destroyed,
+Imperial troops have driven the
+Rebel forces from their hidden
+base and pursued them across
+the galaxy.
+
+Evading the dreaded Imperial
+Starfleet, a group of freedom
+fighters led by Luke Skywalker
+has established a new secret
+base on the remote ice world
+of Hoth.
+
+The evil lord Darth Vader,
+obsessed with finding young
+Skywalker, has dispatched
+thousands of remote probes into
+the far reaches of space....",
+        "planets": Array [
+          "https://swapi.co/api/planets/4/",
+          "https://swapi.co/api/planets/5/",
+          "https://swapi.co/api/planets/6/",
+          "https://swapi.co/api/planets/27/",
+        ],
+        "producer": "Gary Kurtz, Rick McCallum",
+        "release_date": "1980-05-17",
+        "species": Array [
+          "https://swapi.co/api/species/6/",
+          "https://swapi.co/api/species/7/",
+          "https://swapi.co/api/species/3/",
+          "https://swapi.co/api/species/2/",
+          "https://swapi.co/api/species/1/",
+        ],
+        "starships": Array [
+          "https://swapi.co/api/starships/15/",
+          "https://swapi.co/api/starships/10/",
+          "https://swapi.co/api/starships/11/",
+          "https://swapi.co/api/starships/12/",
+          "https://swapi.co/api/starships/21/",
+          "https://swapi.co/api/starships/22/",
+          "https://swapi.co/api/starships/23/",
+          "https://swapi.co/api/starships/3/",
+          "https://swapi.co/api/starships/17/",
+        ],
+        "title": "The Empire Strikes Back",
+        "url": "https://swapi.co/api/films/2/",
+        "vehicles": Array [
+          "https://swapi.co/api/vehicles/8/",
+          "https://swapi.co/api/vehicles/14/",
+          "https://swapi.co/api/vehicles/16/",
+          "https://swapi.co/api/vehicles/18/",
+          "https://swapi.co/api/vehicles/19/",
+          "https://swapi.co/api/vehicles/20/",
+        ],
+      }
+    }
+    key="5"
+  />
+  <Film
+    film={
+      Object {
+        "characters": Array [
+          "https://swapi.co/api/people/1/",
+          "https://swapi.co/api/people/2/",
+          "https://swapi.co/api/people/3/",
+          "https://swapi.co/api/people/4/",
+          "https://swapi.co/api/people/5/",
+          "https://swapi.co/api/people/6/",
+          "https://swapi.co/api/people/7/",
+          "https://swapi.co/api/people/10/",
+          "https://swapi.co/api/people/11/",
+          "https://swapi.co/api/people/12/",
+          "https://swapi.co/api/people/13/",
+          "https://swapi.co/api/people/20/",
+          "https://swapi.co/api/people/21/",
+          "https://swapi.co/api/people/33/",
+          "https://swapi.co/api/people/46/",
+          "https://swapi.co/api/people/51/",
+          "https://swapi.co/api/people/52/",
+          "https://swapi.co/api/people/53/",
+          "https://swapi.co/api/people/54/",
+          "https://swapi.co/api/people/55/",
+          "https://swapi.co/api/people/56/",
+          "https://swapi.co/api/people/58/",
+          "https://swapi.co/api/people/63/",
+          "https://swapi.co/api/people/64/",
+          "https://swapi.co/api/people/67/",
+          "https://swapi.co/api/people/68/",
+          "https://swapi.co/api/people/75/",
+          "https://swapi.co/api/people/78/",
+          "https://swapi.co/api/people/79/",
+          "https://swapi.co/api/people/80/",
+          "https://swapi.co/api/people/81/",
+          "https://swapi.co/api/people/82/",
+          "https://swapi.co/api/people/83/",
+          "https://swapi.co/api/people/35/",
+        ],
+        "created": "2014-12-20T18:49:38.403000Z",
+        "director": "George Lucas",
+        "edited": "2015-04-11T09:45:44.862122Z",
+        "episode_id": 3,
+        "opening_crawl": "War! The Republic is crumbling
+under attacks by the ruthless
+Sith Lord, Count Dooku.
+There are heroes on both sides.
+Evil is everywhere.
+
+In a stunning move, the
+fiendish droid leader, General
+Grievous, has swept into the
+Republic capital and kidnapped
+Chancellor Palpatine, leader of
+the Galactic Senate.
+
+As the Separatist Droid Army
+attempts to flee the besieged
+capital with their valuable
+hostage, two Jedi Knights lead a
+desperate mission to rescue the
+captive Chancellor....",
+        "planets": Array [
+          "https://swapi.co/api/planets/2/",
+          "https://swapi.co/api/planets/5/",
+          "https://swapi.co/api/planets/8/",
+          "https://swapi.co/api/planets/9/",
+          "https://swapi.co/api/planets/12/",
+          "https://swapi.co/api/planets/13/",
+          "https://swapi.co/api/planets/14/",
+          "https://swapi.co/api/planets/15/",
+          "https://swapi.co/api/planets/16/",
+          "https://swapi.co/api/planets/17/",
+          "https://swapi.co/api/planets/18/",
+          "https://swapi.co/api/planets/19/",
+          "https://swapi.co/api/planets/1/",
+        ],
+        "producer": "Rick McCallum",
+        "release_date": "2005-05-19",
+        "species": Array [
+          "https://swapi.co/api/species/19/",
+          "https://swapi.co/api/species/33/",
+          "https://swapi.co/api/species/2/",
+          "https://swapi.co/api/species/3/",
+          "https://swapi.co/api/species/36/",
+          "https://swapi.co/api/species/37/",
+          "https://swapi.co/api/species/6/",
+          "https://swapi.co/api/species/1/",
+          "https://swapi.co/api/species/34/",
+          "https://swapi.co/api/species/15/",
+          "https://swapi.co/api/species/35/",
+          "https://swapi.co/api/species/20/",
+          "https://swapi.co/api/species/23/",
+          "https://swapi.co/api/species/24/",
+          "https://swapi.co/api/species/25/",
+          "https://swapi.co/api/species/26/",
+          "https://swapi.co/api/species/27/",
+          "https://swapi.co/api/species/28/",
+          "https://swapi.co/api/species/29/",
+          "https://swapi.co/api/species/30/",
+        ],
+        "starships": Array [
+          "https://swapi.co/api/starships/48/",
+          "https://swapi.co/api/starships/59/",
+          "https://swapi.co/api/starships/61/",
+          "https://swapi.co/api/starships/32/",
+          "https://swapi.co/api/starships/63/",
+          "https://swapi.co/api/starships/64/",
+          "https://swapi.co/api/starships/65/",
+          "https://swapi.co/api/starships/66/",
+          "https://swapi.co/api/starships/74/",
+          "https://swapi.co/api/starships/75/",
+          "https://swapi.co/api/starships/2/",
+          "https://swapi.co/api/starships/68/",
+        ],
+        "title": "Revenge of the Sith",
+        "url": "https://swapi.co/api/films/6/",
+        "vehicles": Array [
+          "https://swapi.co/api/vehicles/33/",
+          "https://swapi.co/api/vehicles/50/",
+          "https://swapi.co/api/vehicles/53/",
+          "https://swapi.co/api/vehicles/56/",
+          "https://swapi.co/api/vehicles/60/",
+          "https://swapi.co/api/vehicles/62/",
+          "https://swapi.co/api/vehicles/67/",
+          "https://swapi.co/api/vehicles/69/",
+          "https://swapi.co/api/vehicles/70/",
+          "https://swapi.co/api/vehicles/71/",
+          "https://swapi.co/api/vehicles/72/",
+          "https://swapi.co/api/vehicles/73/",
+          "https://swapi.co/api/vehicles/76/",
+        ],
+      }
+    }
+    key="3"
+  />
+  <Film
+    film={
+      Object {
+        "characters": Array [
+          "https://swapi.co/api/people/1/",
+          "https://swapi.co/api/people/2/",
+          "https://swapi.co/api/people/3/",
+          "https://swapi.co/api/people/4/",
+          "https://swapi.co/api/people/5/",
+          "https://swapi.co/api/people/10/",
+          "https://swapi.co/api/people/13/",
+          "https://swapi.co/api/people/14/",
+          "https://swapi.co/api/people/16/",
+          "https://swapi.co/api/people/18/",
+          "https://swapi.co/api/people/20/",
+          "https://swapi.co/api/people/21/",
+          "https://swapi.co/api/people/22/",
+          "https://swapi.co/api/people/25/",
+          "https://swapi.co/api/people/27/",
+          "https://swapi.co/api/people/28/",
+          "https://swapi.co/api/people/29/",
+          "https://swapi.co/api/people/30/",
+          "https://swapi.co/api/people/31/",
+          "https://swapi.co/api/people/45/",
+        ],
+        "created": "2014-12-18T10:39:33.255000Z",
+        "director": "Richard Marquand",
+        "edited": "2015-04-11T09:46:05.220365Z",
+        "episode_id": 6,
+        "opening_crawl": "Luke Skywalker has returned to
+his home planet of Tatooine in
+an attempt to rescue his
+friend Han Solo from the
+clutches of the vile gangster
+Jabba the Hutt.
+
+Little does Luke know that the
+GALACTIC EMPIRE has secretly
+begun construction on a new
+armored space station even
+more powerful than the first
+dreaded Death Star.
+
+When completed, this ultimate
+weapon will spell certain doom
+for the small band of rebels
+struggling to restore freedom
+to the galaxy...",
+        "planets": Array [
+          "https://swapi.co/api/planets/5/",
+          "https://swapi.co/api/planets/7/",
+          "https://swapi.co/api/planets/8/",
+          "https://swapi.co/api/planets/9/",
+          "https://swapi.co/api/planets/1/",
+        ],
+        "producer": "Howard G. Kazanjian, George Lucas, Rick McCallum",
+        "release_date": "1983-05-25",
+        "species": Array [
+          "https://swapi.co/api/species/1/",
+          "https://swapi.co/api/species/2/",
+          "https://swapi.co/api/species/3/",
+          "https://swapi.co/api/species/5/",
+          "https://swapi.co/api/species/6/",
+          "https://swapi.co/api/species/8/",
+          "https://swapi.co/api/species/9/",
+          "https://swapi.co/api/species/10/",
+          "https://swapi.co/api/species/15/",
+        ],
+        "starships": Array [
+          "https://swapi.co/api/starships/15/",
+          "https://swapi.co/api/starships/10/",
+          "https://swapi.co/api/starships/11/",
+          "https://swapi.co/api/starships/12/",
+          "https://swapi.co/api/starships/22/",
+          "https://swapi.co/api/starships/23/",
+          "https://swapi.co/api/starships/27/",
+          "https://swapi.co/api/starships/28/",
+          "https://swapi.co/api/starships/29/",
+          "https://swapi.co/api/starships/3/",
+          "https://swapi.co/api/starships/17/",
+          "https://swapi.co/api/starships/2/",
+        ],
+        "title": "Return of the Jedi",
+        "url": "https://swapi.co/api/films/3/",
+        "vehicles": Array [
+          "https://swapi.co/api/vehicles/8/",
+          "https://swapi.co/api/vehicles/16/",
+          "https://swapi.co/api/vehicles/18/",
+          "https://swapi.co/api/vehicles/19/",
+          "https://swapi.co/api/vehicles/24/",
+          "https://swapi.co/api/vehicles/25/",
+          "https://swapi.co/api/vehicles/26/",
+          "https://swapi.co/api/vehicles/30/",
+        ],
+      }
+    }
+    key="6"
+  />
+  <Film
+    film={
+      Object {
+        "characters": Array [
+          "https://swapi.co/api/people/1/",
+          "https://swapi.co/api/people/2/",
+          "https://swapi.co/api/people/3/",
+          "https://swapi.co/api/people/4/",
+          "https://swapi.co/api/people/5/",
+          "https://swapi.co/api/people/6/",
+          "https://swapi.co/api/people/7/",
+          "https://swapi.co/api/people/8/",
+          "https://swapi.co/api/people/9/",
+          "https://swapi.co/api/people/10/",
+          "https://swapi.co/api/people/12/",
+          "https://swapi.co/api/people/13/",
+          "https://swapi.co/api/people/14/",
+          "https://swapi.co/api/people/15/",
+          "https://swapi.co/api/people/16/",
+          "https://swapi.co/api/people/18/",
+          "https://swapi.co/api/people/19/",
+          "https://swapi.co/api/people/81/",
+        ],
+        "created": "2014-12-10T14:23:31.880000Z",
+        "director": "George Lucas",
+        "edited": "2015-04-11T09:46:52.774897Z",
+        "episode_id": 4,
+        "opening_crawl": "It is a period of civil war.
+Rebel spaceships, striking
+from a hidden base, have won
+their first victory against
+the evil Galactic Empire.
+
+During the battle, Rebel
+spies managed to steal secret
+plans to the Empire's
+ultimate weapon, the DEATH
+STAR, an armored space
+station with enough power
+to destroy an entire planet.
+
+Pursued by the Empire's
+sinister agents, Princess
+Leia races home aboard her
+starship, custodian of the
+stolen plans that can save her
+people and restore
+freedom to the galaxy....",
+        "planets": Array [
+          "https://swapi.co/api/planets/2/",
+          "https://swapi.co/api/planets/3/",
+          "https://swapi.co/api/planets/1/",
+        ],
+        "producer": "Gary Kurtz, Rick McCallum",
+        "release_date": "1977-05-25",
+        "species": Array [
+          "https://swapi.co/api/species/5/",
+          "https://swapi.co/api/species/3/",
+          "https://swapi.co/api/species/2/",
+          "https://swapi.co/api/species/1/",
+          "https://swapi.co/api/species/4/",
+        ],
+        "starships": Array [
+          "https://swapi.co/api/starships/2/",
+          "https://swapi.co/api/starships/3/",
+          "https://swapi.co/api/starships/5/",
+          "https://swapi.co/api/starships/9/",
+          "https://swapi.co/api/starships/10/",
+          "https://swapi.co/api/starships/11/",
+          "https://swapi.co/api/starships/12/",
+          "https://swapi.co/api/starships/13/",
+        ],
+        "title": "A New Hope",
+        "url": "https://swapi.co/api/films/1/",
+        "vehicles": Array [
+          "https://swapi.co/api/vehicles/4/",
+          "https://swapi.co/api/vehicles/6/",
+          "https://swapi.co/api/vehicles/7/",
+          "https://swapi.co/api/vehicles/8/",
+        ],
+      }
+    }
+    key="4"
+  />
+  <Film
+    film={
+      Object {
+        "characters": Array [
+          "https://swapi.co/api/people/1/",
+          "https://swapi.co/api/people/3/",
+          "https://swapi.co/api/people/5/",
+          "https://swapi.co/api/people/13/",
+          "https://swapi.co/api/people/14/",
+          "https://swapi.co/api/people/27/",
+          "https://swapi.co/api/people/84/",
+          "https://swapi.co/api/people/85/",
+          "https://swapi.co/api/people/86/",
+          "https://swapi.co/api/people/87/",
+          "https://swapi.co/api/people/88/",
+        ],
+        "created": "2015-04-17T06:51:30.504780Z",
+        "director": "J. J. Abrams",
+        "edited": "2015-12-17T14:31:47.617768Z",
+        "episode_id": 7,
+        "opening_crawl": "Luke Skywalker has vanished.
+In his absence, the sinister
+FIRST ORDER has risen from
+the ashes of the Empire
+and will not rest until
+Skywalker, the last Jedi,
+has been destroyed.
+ 
+With the support of the
+REPUBLIC, General Leia Organa
+leads a brave RESISTANCE.
+She is desperate to find her
+brother Luke and gain his
+help in restoring peace and
+justice to the galaxy.
+ 
+Leia has sent her most daring
+pilot on a secret mission
+to Jakku, where an old ally
+has discovered a clue to
+Luke's whereabouts....",
+        "planets": Array [
+          "https://swapi.co/api/planets/61/",
+        ],
+        "producer": "Kathleen Kennedy, J. J. Abrams, Bryan Burk",
+        "release_date": "2015-12-11",
+        "species": Array [
+          "https://swapi.co/api/species/3/",
+          "https://swapi.co/api/species/2/",
+          "https://swapi.co/api/species/1/",
+        ],
+        "starships": Array [
+          "https://swapi.co/api/starships/77/",
+          "https://swapi.co/api/starships/10/",
+        ],
+        "title": "The Force Awakens",
+        "url": "https://swapi.co/api/films/7/",
+        "vehicles": Array [],
+      }
+    }
+    key="7"
+  />
+</Section>
+`;
