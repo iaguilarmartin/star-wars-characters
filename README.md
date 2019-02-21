@@ -38,6 +38,8 @@ npm install
 napm run dev
 ```
 
-## TODO
+4. Run tests
 
-- Write tests
+```bash
+npm run test
+```
