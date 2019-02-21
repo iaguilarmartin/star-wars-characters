@@ -20,7 +20,8 @@ export const Section = styled.section`
 
 export const Select = styled(ReactSelect)`
   margin-top: ${space.x1};
-  font-family: ${fonts.Starjedi};
+  font-family: ${fonts.DethStar};
+  letter-spacing: 1px;
   outline: none;
 
   ${mediaQueries.md(css`

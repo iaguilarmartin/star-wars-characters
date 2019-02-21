@@ -10,6 +10,14 @@ exports[`<Film/> matches the snapshot 1`] = `
       <CalendarIcon />
       Friday, May 16 1980
     </ReleaseDate>
+    <Info>
+      <FilmIcon />
+      Irvin Kershner
+    </Info>
+    <Info>
+      <MoneyIcon />
+      Gary Kurtz, Rick McCallum
+    </Info>
     <Description>
       It is a dark time for the
 Rebellion. Although the Death

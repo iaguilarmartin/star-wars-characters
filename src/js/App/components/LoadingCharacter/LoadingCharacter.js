@@ -10,7 +10,8 @@ import Spinner from './Spinner';
 const Section = styled.section`
   text-align: center;
   margin: ${space.x3};
-  font-family: ${fonts.Starjedi};
+  font-family: ${fonts.DethStar};
+  letter-spacing: 1px;
 `;
 
 const LoadingAnimation = styled(Spinner)`

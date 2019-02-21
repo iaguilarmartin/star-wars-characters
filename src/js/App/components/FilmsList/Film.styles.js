@@ -28,16 +28,18 @@ export const Container = styled.div`
 
 export const Title = styled.h2`
   color: ${colors.yellow};
-  font-family: ${fonts.Starjedi};
+  font-family: ${fonts.DethStar};
+  letter-spacing: 1px;
   font-size: ${fonts.sizes.m};
   font-weight: normal;
   margin-bottom: ${space.x05};
 `;
 
-export const ReleaseDate = styled.span`
+export const Info = styled.span`
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   font-size: ${fonts.sizes.xxs};
+  margin-bottom: ${space.x1};
 
   svg {
     height: 14px;
@@ -50,3 +52,5 @@ export const Description = styled.p`
   margin: ${space.x2} 0 ${space.x1};
   color: ${colors.greyLight};
 `;
+
+export const ReleaseDate = styled(Info)``;

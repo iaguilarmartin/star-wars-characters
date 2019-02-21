@@ -17,7 +17,7 @@ const sizes = {
 // Font names
 const names = {
   AnakinMono: "'Anakin Mono'",
-  Starjedi: "'Star Wars Jedi'",
+  DethStar: "'Death Star'",
   Starjhol: "'Star Wars Jedi Hole'",
   Starjout: "'Star Wars Jedi Outline'"
 };
@@ -32,8 +32,8 @@ const faces = css`
   }
 
   @font-face {
-    font-family: ${names.Starjedi};
-    src: url('/assets/fonts/Starjedi.ttf') format('truetype');
+    font-family: ${names.DethStar};
+    src: url('/assets/fonts/Death Star.otf') format('opentype');
     font-style: normal;
     font-weight: normal;
   }

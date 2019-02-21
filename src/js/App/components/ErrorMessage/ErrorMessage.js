@@ -7,7 +7,8 @@ import { space } from '../../styles/spacing';
 const Section = styled.section`
   text-align: center;
   margin: ${space.x3} 0;
-  font-family: ${fonts.Starjedi};
+  font-family: ${fonts.DethStar};
+  letter-spacing: 1px;
 `;
 
 const Image = styled.img`
