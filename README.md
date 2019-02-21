@@ -8,7 +8,7 @@ This repo contains the source code of a pre-interview exercise from
 
 The result of the exercise is published using [now](https://zeit.co/now) in the
 following URL:
-[https://star-wars-characters-hpjs72twe.now.sh](https://star-wars-characters-hpjs72twe.now.sh)
+[https://star-wars-characters-a3rb0r0ux.now.sh](https://star-wars-characters-a3rb0r0ux.now.sh)
 
 ## Technologies used
 
