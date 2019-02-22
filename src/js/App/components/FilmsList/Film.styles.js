@@ -15,7 +15,11 @@ export const Article = styled.article`
   `)};
 
   ${mediaQueries.lg(css`
-    width: 33.3333%;
+    width: 25%;
+  `)};
+
+  ${mediaQueries.xl(css`
+    width: 20%;
   `)};
 `;
 
@@ -44,6 +48,7 @@ export const Info = styled.span`
   svg {
     height: 14px;
     margin-right: ${space.x1};
+    flex-shrink: 0;
   }
 `;
 

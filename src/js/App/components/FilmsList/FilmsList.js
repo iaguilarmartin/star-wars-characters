@@ -15,6 +15,7 @@ const Section = styled.section`
   padding-top: ${space.x3};
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 `;
 
 const Header = styled.header`

@@ -12,7 +12,7 @@ import { mediaQueries } from './styles/breakpoints';
 import { getCharacterDetails } from './api/characters';
 
 const Layout = styled.div`
-  max-width: 980px;
+  max-width: 1290px;
   margin: 0 auto;
   padding: ${space.x25} 0;
 `;
